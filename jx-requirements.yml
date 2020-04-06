@@ -8,7 +8,6 @@ cluster:
   - vvanouytsel
   - team-church
   - sh33dafi
-  - blackcatworld
   environmentGitOwner: tm-project-code
   environmentGitPublic: true
   gitKind: github
@@ -16,6 +15,7 @@ cluster:
   gitServer: https://github.com
   namespace: jx
   provider: kubernetes
+  registry: jenkins-x-docker-registry.jx.svc.cluster.local
 environments:
 - ingress:
     domain: 51.124.67.63.nip.io
