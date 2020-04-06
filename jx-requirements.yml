@@ -15,7 +15,7 @@ cluster:
   gitServer: https://github.com
   namespace: jx
   provider: kubernetes
-  registry: jenkins-x-docker-registry.jx.svc.cluster.local
+  registry: akscodejx.azurecr.io
 environments:
 - ingress:
     domain: 51.124.67.63.nip.io
